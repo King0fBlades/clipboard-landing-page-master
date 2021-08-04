@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:hsl(201, 11%, 66%);
+}
+header{
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    color:hsl(210, 10%, 33%);
+}
+
+.btn {
+    width: 20rem;
+}
+
+.btn-primary {
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 40%) !important;
+}
+
+.btn-secondary {
+    background-color:hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 65%) !important;
+}
+
+
+.btn-primary:hover {
+    background-color: hsl(171, 66%, 49%);
+    border-color: hsl(171, 66%, 45%) !important;
+}
+
+.btn-secondary:hover {
+    background-color:hsl(233, 100%, 74%);
+    border-color: hsl(233, 100%, 70%) !important;
+}
+
+.navtext {
+    color:hsl(210, 10%, 33%);
+}
